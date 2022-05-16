@@ -6,7 +6,7 @@ Claude de Rijke-Thomas
 Uses a python 3.8.2 environment
 
 To create the environment and install the packages used:
-
+```
 conda create -n icyenv python=3.8.2
 conda activate icyenv
 conda uninstall -c conda-forge cartopy proj geos numpy cython shapely proj pyshp six jupyterlab
@@ -21,4 +21,4 @@ pip install numpy==1.20.0
 pip install geopandas==0.10.2
 pip install git+"https://bitbucket.org/william_rusnack/to-precision/src/master/"
 pip install --upgrade jupyterlab
-
+```
